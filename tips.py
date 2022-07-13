@@ -10,7 +10,7 @@ def CLI_function(a, a_copy, name):
         with open ('a_copy.txt','w') as whomework:
             for line in rhomework:
                 line = line.replace('o','0')
-                line = line.replace('?', f'{name}?')
+                line = line.replace('?', f'{ name}?')
                 whomework.write(line)
 
 CLI_function (args.a, args.a_copy, args.name)
