@@ -5,6 +5,7 @@ parser.add_argument('-a2','--a_copy', help = ('now lyrics are changed'), type = 
 parser.add_argument('-n', '--name', help='a name to personalize motivational speech', type = input, required=True)
 args =  parser.parse_args()
 
+name = str(input("Write your name"))
 def CLI_function(a, a_copy, name):
     with open ('a.txt', 'r') as rhomework:
         with open ('a_copy.txt','w') as whomework:
